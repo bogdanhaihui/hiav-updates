@@ -1,10 +1,11 @@
 {
-    "sha256": "C7EB2268E6B75B8721467357A953DA9209A57A2F96A5D7A9841EB6655E935AEE",
-    "version": "2.5.32",
-    "githubReleaseUrl": "https://github.com/bogdanhaihui/hiav-updates/releases/tag/v2.5.32",
-    "downloadUrl": "https://github.com/bogdanhaihui/hiav-updates/releases/download/v2.5.32/HiAV-v2.5.32-win-x64.zip",
-    "url": "https://github.com/bogdanhaihui/hiav-updates/releases/download/v2.5.32/HiAV-v2.5.32-win-x64.zip",
-    "changelog": "Versiune v2.5.32: Adaugat butonul Raporteaza Fals-Pozitiv direct in tabul Carantina cu anonimizare GDPR automata; publicat whats_new.json sincronizat in cloud; comutator Izolare Retea de Urgenta.",
-    "minCompatible": "2.0.0",
-    "releaseDateUtc": "2026-11-23T17:36:00Z"
+    "version":  "2.5.33",
+    "sha256":  "1CB391324728FB387BC39E59EAE178FC78CAFCFE3E0D8CE8D35BD51689625569",
+    "downloadUrl":  "https://github.com/bogdanhaihui/hiav-updates/releases/download/v2.5.33/HiAV-v2.5.33-win-x64.zip",
+    "releaseDate":  "2026-11-23",
+    "changelog":  [
+                      "Detecție Polimorfică prin Imphash (MalwareBazaar)",
+                      "Extindere Threat Intelligence Abuse.ch cu suport prefixe imphash",
+                      "Consolă SecOps Dashboard actualizată cu sincronizare automată de semnături"
+                  ]
 }
