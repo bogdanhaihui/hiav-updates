@@ -1,10 +1,10 @@
 {
-    "sha256": "13803368712F83F153E7DC44C87006CF5B2BF780017E16DD2D225B417497A7CB",
-    "version": "2.5.31",
-    "githubReleaseUrl": "https://github.com/bogdanhaihui/hiav-updates/releases/tag/v2.5.31",
-    "downloadUrl": "https://github.com/bogdanhaihui/hiav-updates/releases/download/v2.5.31/HiAV-v2.5.31-win-x64.zip",
-    "url": "https://github.com/bogdanhaihui/hiav-updates/releases/download/v2.5.31/HiAV-v2.5.31-win-x64.zip",
-    "changelog": "Versiune v2.5.31: Adaugat butonul de urgenta Izolare Retea (Emergency Network Lockdown) in Setari (Basic si Avansat) si IPC serviciu; integrata semnare digitala Authenticode cu RFC3161 timestamping; ecran de noutati What's New bilingual.",
+    "sha256": "C7EB2268E6B75B8721467357A953DA9209A57A2F96A5D7A9841EB6655E935AEE",
+    "version": "2.5.32",
+    "githubReleaseUrl": "https://github.com/bogdanhaihui/hiav-updates/releases/tag/v2.5.32",
+    "downloadUrl": "https://github.com/bogdanhaihui/hiav-updates/releases/download/v2.5.32/HiAV-v2.5.32-win-x64.zip",
+    "url": "https://github.com/bogdanhaihui/hiav-updates/releases/download/v2.5.32/HiAV-v2.5.32-win-x64.zip",
+    "changelog": "Versiune v2.5.32: Adaugat butonul Raporteaza Fals-Pozitiv direct in tabul Carantina cu anonimizare GDPR automata; publicat whats_new.json sincronizat in cloud; comutator Izolare Retea de Urgenta.",
     "minCompatible": "2.0.0",
-    "releaseDateUtc": "2026-11-23T17:28:00Z"
+    "releaseDateUtc": "2026-11-23T17:36:00Z"
 }
