@@ -1,0 +1,159 @@
+{
+  "2.5.31": {
+    "title_ro": "NoutÄƒÈ›i Ã®n HiAV v2.5.31",
+    "title_en": "What's New in HiAV v2.5.31",
+    "date": "2026-11-23",
+    "highlights_ro": [
+      {
+        "icon": "ðŸš¨",
+        "title": "Comutator Izolare ReÈ›ea de UrgenÈ›Äƒ (Lockdown)",
+        "desc": "Buton de panicÄƒ integrat Ã®n tabul SetÄƒri (Basic & Avansat) pentru izolarea imediatÄƒ a sistemului de la orice comunicare de reÈ›ea/internet Ã®n cazul suspectÄƒrii unui atac sau breÈ™e active."
+      },
+      {
+        "icon": "ðŸ”",
+        "title": "Semnare de Cod DigitalÄƒ Authenticode",
+        "desc": "Validare È™i pregÄƒtire completÄƒ a semnÄƒturilor digitale cu timestamp RFC3161 pe toate executabilele È™i pachetul de instalare HiAV-Setup.exe."
+      },
+      {
+        "icon": "âœ¨",
+        "title": "Ecran de NoutÄƒÈ›i Bilingual (What's New)",
+        "desc": "AfiÈ™are automatÄƒ a modificÄƒrilor È™i capabilitÄƒÈ›ilor noi la prima pornire a fiecÄƒrei versiuni noi, Ã®n limbile RomÃ¢nÄƒ È™i EnglezÄƒ."
+      },
+      {
+        "icon": "â˜ï¸",
+        "title": "Feed Agregat de SemnÄƒturi Cloud & Mirror CDN",
+        "desc": "Ingestie transparentÄƒ prin streaming È™i decompresie GZip/Deflate a bazei comune de ameninÈ›Äƒri cu protecÈ›ie automatÄƒ multi-mirror (GitHub CDN + Firestore)."
+      }
+    ],
+    "highlights_en": [
+      {
+        "icon": "ðŸš¨",
+        "title": "Emergency Network Lockdown Switch",
+        "desc": "Instant system network cutoff button directly available in Settings (Basic & Advanced) to stop active data exfiltration or lateral movement during a breach."
+      },
+      {
+        "icon": "ðŸ”",
+        "title": "Authenticode Digital Code Signing",
+        "desc": "Digital signing pipeline with RFC3161 timestamping applied across all core binaries and the installer package (HiAV-Setup.exe)."
+      },
+      {
+        "icon": "âœ¨",
+        "title": "Bilingual What's New Notification Center",
+        "desc": "Automatic presentation of highlights and key improvements upon the first launch of every new version, available in English and Romanian."
+      },
+      {
+        "icon": "â˜ï¸",
+        "title": "Aggregated Cloud Signatures Feed & CDN Mirror",
+        "desc": "Streaming delta ingestion with GZip/Deflate decompression for global threat intelligence with multi-mirror fallback (GitHub CDN + Firestore)."
+      }
+    ]
+  },
+  "2.5.30": {
+    "title_ro": "NoutÄƒÈ›i Ã®n HiAV v2.5.30",
+    "title_en": "What's New in HiAV v2.5.30",
+    "date": "2026-11-23",
+    "highlights_ro": [
+      {
+        "icon": "âœ¨",
+        "title": "Ecran de NoutÄƒÈ›i Bilingual (What's New)",
+        "desc": "AfiÈ™are automatÄƒ a modificÄƒrilor È™i capabilitÄƒÈ›ilor noi la prima pornire a fiecÄƒrei versiuni noi, Ã®n limbile RomÃ¢nÄƒ È™i EnglezÄƒ."
+      },
+      {
+        "icon": "â˜ï¸",
+        "title": "Feed Agregat de SemnÄƒturi Cloud & Mirror CDN",
+        "desc": "Ingestie transparentÄƒ prin streaming È™i decompresie GZip/Deflate a bazei comune de ameninÈ›Äƒri cu protecÈ›ie automatÄƒ multi-mirror (GitHub CDN + Firestore)."
+      },
+      {
+        "icon": "ðŸ›¡ï¸",
+        "title": "ApÄƒrare Anti-Atacuri Coordonate AI (ASR-105)",
+        "desc": "DetecÈ›ie euristicÄƒ imediatÄƒ a tentativelor avansate de descÄƒrcare È™i injectare de cod prin PowerShell È™i LOLBins, cu terminarea instantanee a Ã®ntregului arbore de procese compromise."
+      },
+      {
+        "icon": "âš™ï¸",
+        "title": "SetÄƒri Reorganizate: Mod Basic È™i Avansat",
+        "desc": "InterfaÈ›Äƒ simplificatÄƒ implicit pentru utilizatori obiÈ™nuiÈ›i (Basic), pÄƒstrÃ¢nd accesul granular È™i complet la toate scuturile EDR pentru experÈ›i (Avansat)."
+      },
+      {
+        "icon": "âš–ï¸",
+        "title": "Conformitate 100% GDPR, EULA È™i Privacy-by-Design",
+        "desc": "Acord integrat de licenÈ›iere la instalare, jurnal de securitate auditat È™i anonimizare strictÄƒ a cÄƒilor de profil utilizator Ã®n telemetrie."
+      }
+    ],
+    "highlights_en": [
+      {
+        "icon": "âœ¨",
+        "title": "Bilingual What's New Notification Center",
+        "desc": "Automatic presentation of highlights and key improvements upon the first launch of every new version, available in English and Romanian."
+      },
+      {
+        "icon": "â˜ï¸",
+        "title": "Aggregated Cloud Signatures Feed & CDN Mirror",
+        "desc": "Streaming delta ingestion with GZip/Deflate decompression for global threat intelligence with multi-mirror fallback (GitHub CDN + Firestore)."
+      },
+      {
+        "icon": "ðŸ›¡ï¸",
+        "title": "Anti-AI Coordinated Attack Defense (ASR-105)",
+        "desc": "Immediate heuristic detection of advanced downloader pipelines via PowerShell and LOLBins, instantly terminating the entire compromised process tree."
+      },
+      {
+        "icon": "âš™ï¸",
+        "title": "Reorganized Settings: Basic & Advanced Views",
+        "desc": "Streamlined default experience for daily usage (Basic), while preserving granular controls over all proactive EDR shields for power users (Advanced)."
+      },
+      {
+        "icon": "âš–ï¸",
+        "title": "100% GDPR, EULA & Privacy-by-Design Compliance",
+        "desc": "Integrated end-user license agreement at installer stage, audited security logging, and strict PII redaction of user profile folders in telemetry."
+      }
+    ]
+  },
+  "2.5.29": {
+    "title_ro": "NoutÄƒÈ›i Ã®n HiAV v2.5.29",
+    "title_en": "What's New in HiAV v2.5.29",
+    "date": "2026-11-23",
+    "highlights_ro": [
+      {
+        "icon": "ðŸ›¡ï¸",
+        "title": "ApÄƒrare Anti-Atacuri Coordonate AI (ASR-105)",
+        "desc": "DetecÈ›ie euristicÄƒ imediatÄƒ a tentativelor avansate de descÄƒrcare È™i injectare de cod prin PowerShell È™i LOLBins, cu terminarea instantanee a Ã®ntregului arbore de procese compromise."
+      },
+      {
+        "icon": "â˜ï¸",
+        "title": "Feed Agregat de SemnÄƒturi Cloud",
+        "desc": "Sincronizare bilateralÄƒ ultra-rapidÄƒ È™i ingestie compactÄƒ cu decompresie transparentÄƒ (GZip/Deflate) a bazei comune de ameninÈ›Äƒri globale."
+      },
+      {
+        "icon": "âš™ï¸",
+        "title": "SetÄƒri Reorganizate: Mod Basic È™i Avansat",
+        "desc": "InterfaÈ›Äƒ simplificatÄƒ implicit pentru utilizatori obiÈ™nuiÈ›i (Basic), pÄƒstrÃ¢nd accesul granular È™i complet la toate scuturile EDR pentru experÈ›i (Avansat)."
+      },
+      {
+        "icon": "âš–ï¸",
+        "title": "Conformitate 100% GDPR, EULA È™i Privacy-by-Design",
+        "desc": "Acord integrat de licenÈ›iere la instalare, jurnal de securitate auditat È™i anonimizare strictÄƒ a cÄƒilor de profil utilizator Ã®n telemetrie."
+      }
+    ],
+    "highlights_en": [
+      {
+        "icon": "ðŸ›¡ï¸",
+        "title": "Anti-AI Coordinated Attack Defense (ASR-105)",
+        "desc": "Immediate heuristic detection of advanced downloader pipelines via PowerShell and LOLBins, instantly terminating the entire compromised process tree."
+      },
+      {
+        "icon": "â˜ï¸",
+        "title": "Aggregated Cloud Signatures Feed",
+        "desc": "Ultra-fast bilateral synchronization and compact stream ingestion with transparent GZip/Deflate decompression for global threat intelligence."
+      },
+      {
+        "icon": "âš™ï¸",
+        "title": "Reorganized Settings: Basic & Advanced Views",
+        "desc": "Streamlined default experience for daily usage (Basic), while preserving granular controls over all proactive EDR shields for power users (Advanced)."
+      },
+      {
+        "icon": "âš–ï¸",
+        "title": "100% GDPR, EULA & Privacy-by-Design Compliance",
+        "desc": "Integrated end-user license agreement at installer stage, audited security logging, and strict PII redaction of user profile folders in telemetry."
+      }
+    ]
+  }
+}
