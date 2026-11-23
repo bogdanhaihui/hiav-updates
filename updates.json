@@ -1,11 +1,10 @@
 {
-    "version":  "2.5.33",
-    "sha256":  "1CB391324728FB387BC39E59EAE178FC78CAFCFE3E0D8CE8D35BD51689625569",
-    "downloadUrl":  "https://github.com/bogdanhaihui/hiav-updates/releases/download/v2.5.33/HiAV-v2.5.33-win-x64.zip",
+    "version":  "2.5.34",
+    "sha256":  "DDF7BCBE784D83E22E5E962D7DCB9D4D24A95D8606F52728098806740CDC14D4",
+    "downloadUrl":  "https://github.com/bogdanhaihui/hiav-updates/releases/download/v2.5.34/HiAV-v2.5.34-win-x64.zip",
     "releaseDate":  "2026-11-23",
     "changelog":  [
-                      "Detecție Polimorfică prin Imphash (MalwareBazaar)",
-                      "Extindere Threat Intelligence Abuse.ch cu suport prefixe imphash",
-                      "Consolă SecOps Dashboard actualizată cu sincronizare automată de semnături"
+                      "Bază de date extinsă la 1.334.334 de semnături (SHA-256 + Imphash) din întregul dump MalwareBazaar",
+                      "Sincronizare dinamică în tabul Scanare a numărului real de semnături (Etapa 2 afișează dinamic ex: 1.33M Semnături)"
                   ]
 }
