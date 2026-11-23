@@ -1,11 +1,11 @@
 {
-    "version":  "2.5.35",
-    "sha256":  "BC51AD22B492070EE87C5B3651F1104038C1F56A76B13222CDDFB2ADBA8E5845",
-    "downloadUrl":  "https://github.com/bogdanhaihui/hiav-updates/releases/download/v2.5.35/HiAV-v2.5.35-win-x64.zip",
-    "releaseDate":  "2026-11-23",
+    "version":  "2.5.36",
+    "sha256":  "F8BF7E50965A99C917A653846903D046CA459634CC5435681F6BC0A1464BBA9E",
+    "downloadUrl":  "https://github.com/bogdanhaihui/hiav-updates/releases/download/v2.5.36/HiAV-v2.5.36-win-x64.zip",
+    "releaseDate":  "2026-11-24",
     "changelog":  [
-                      "Fuzzy Hashing TLSH (Trend Micro Locality Sensitive Hash) pentru detecție mutații polimorfice",
-                      "Catalogare Familii de Amenințări (Threat Families: LockBit, RedLine, AgentTesla, AsyncRAT etc.)",
-                      "Alerte nominale detaliate și răspuns diferențiat EDR în funcție de tipul de malware"
+                      "Bază masivă de 2.42M semnături și peste 1.03M familii de amenințări MalwareBazaar integrate",
+                      "Optimizare arhitecturală de memorie RAM cu String Interning și delimitare la 50k a pool-ului activ TLSH",
+                      "Afișare dinamică în timp real (2.42M Semnături) pe etapa 2 din interfața de scanare"
                   ]
 }
