@@ -1,4 +1,43 @@
 {
+  "2.5.36": {
+    "title_ro": "Noutăți în HiAV v2.5.36",
+    "title_en": "What's New in HiAV v2.5.36",
+    "date": "2026-11-24",
+    "highlights_ro": [
+      {
+        "icon": "⚡",
+        "title": "Bază Extinsă de 2.42M Semnături & 1M Familii de Amenințări",
+        "desc": "Extindere masivă cu întregul dump istoric MalwareBazaar: peste 2.418.000 semnături SHA-256 și Imphash, corelate direct cu peste 1.032.000 familii de malware catalogate."
+      },
+      {
+        "icon": "🧠",
+        "title": "Optimizare Memorie RAM & String Interning",
+        "desc": "Arhitectură de stocare optimizată cu internare de string-uri pentru familiile de amenințări și pool activ TLSH delimitat la 50.000 mostre, reducând drastic consumul de memorie."
+      },
+      {
+        "icon": "📊",
+        "title": "Afișare Dinamică 2.42M pe Tabul de Scanare",
+        "desc": "Etapa de verificare a semnăturilor reflectă în timp real volumul uriaș de protecție (2.42M Semnături) atât în repaus cât și pe parcursul scanării active."
+      }
+    ],
+    "highlights_en": [
+      {
+        "icon": "⚡",
+        "title": "Expanded 2.42M Signatures & 1M Threat Families",
+        "desc": "Massive coverage boost incorporating the full MalwareBazaar historical dump: over 2,418,000 SHA-256 and Imphash signatures mapped to 1,032,000+ cataloged malware families."
+      },
+      {
+        "icon": "🧠",
+        "title": "RAM Memory Optimization & String Interning",
+        "desc": "Optimized memory layout with string interning on threat family tags and a 50k active sample pool for TLSH fuzzy comparisons, drastically reducing service footprint."
+      },
+      {
+        "icon": "📊",
+        "title": "Dynamic 2.42M Count on Scan UI",
+        "desc": "Stage 2 signature verification dynamically displays the massive protection scale (2.42M Signatures) in both idle state and during real-time scanning."
+      }
+    ]
+  },
   "2.5.35": {
     "title_ro": "Noutăți în HiAV v2.5.35",
     "title_en": "What's New in HiAV v2.5.35",
