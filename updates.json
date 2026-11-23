@@ -1,0 +1,10 @@
+{
+    "sha256": "C5B2D27F87D7D9DFBAF58A7132F41D3C4B4B556BF9C07F101E902B367DFAD909",
+    "version": "2.5.30",
+    "githubReleaseUrl": "https://github.com/bogdanhaihui/hiav-updates/releases/tag/v2.5.30",
+    "downloadUrl": "https://github.com/bogdanhaihui/hiav-updates/releases/download/v2.5.30/HiAV-v2.5.30-win-x64.zip",
+    "url": "https://github.com/bogdanhaihui/hiav-updates/releases/download/v2.5.30/HiAV-v2.5.30-win-x64.zip",
+    "changelog": "Versiune v2.5.30: Adaugat ecran inteligent de noutati What's New bilingual (RO/EN) la prima deschidere per versiune; integrat agregator automat de semnaturi Cloud cu feed compact si streaming gzip; reorganizat tabul de setari in modurile Basic si Avansat.",
+    "minCompatible": "2.0.0",
+    "releaseDateUtc": "2026-11-23T17:10:00Z"
+}
