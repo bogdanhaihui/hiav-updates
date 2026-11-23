@@ -1,205 +1,244 @@
 {
-  "2.5.32": {
-    "title_ro": "NoutÄƒÈ›i Ã®n HiAV v2.5.32",
-    "title_en": "What's New in HiAV v2.5.32",
+  "2.5.33": {
+    "title_ro": "Noutăți în HiAV v2.5.33",
+    "title_en": "What's New in HiAV v2.5.33",
     "date": "2026-11-23",
     "highlights_ro": [
       {
-        "icon": "ðŸ›¡ï¸",
-        "title": "Raportare Fals-Pozitiv din CarantinÄƒ",
-        "desc": "AdÄƒugat buton dedicat Ã®n tabul CarantinÄƒ pentru transmiterea facilÄƒ de rapoarte anonimizate GDPR cÄƒtre echipa de securitate dacÄƒ un fiÈ™ier este considerat legitim."
+        "icon": "🧬",
+        "title": "Detecție Polimorfică prin Imphash (MalwareBazaar)",
+        "desc": "Calcul automat standardizat al Imphash (Import Hash MD5) pentru toate fișierele PE și blocarea generică a întregilor familii de malware (ex: AgentTesla, AsyncRAT, RedLine) chiar dacă hash-ul SHA-256 este polimorfic sau nou."
       },
       {
-        "icon": "ðŸš¨",
-        "title": "Comutator Izolare ReÈ›ea de UrgenÈ›Äƒ (Lockdown)",
-        "desc": "Buton de panicÄƒ integrat Ã®n tabul SetÄƒri (Basic & Avansat) pentru izolarea imediatÄƒ a sistemului de la orice comunicare de reÈ›ea/internet Ã®n cazul suspectÄƒrii unui atac."
+        "icon": "📡",
+        "title": "Extindere Threat Intelligence Abuse.ch",
+        "desc": "Preluare îmbogățită a indicatorilor de compromitere (IoC) și suport nativ pentru prefixe imphash (imp:*) în baza rapidă de semnături a motorului."
       },
       {
-        "icon": "ðŸ”",
-        "title": "Semnare de Cod DigitalÄƒ Authenticode",
-        "desc": "Validare È™i pregÄƒtire completÄƒ a semnÄƒturilor digitale cu timestamp RFC3161 pe toate executabilele È™i pachetul de instalare HiAV-Setup.exe."
-      },
-      {
-        "icon": "âœ¨",
-        "title": "Ecran de NoutÄƒÈ›i Bilingual (What's New)",
-        "desc": "AfiÈ™are automatÄƒ a modificÄƒrilor È™i capabilitÄƒÈ›ilor noi la prima pornire a fiecÄƒrei versiuni noi, Ã®n limbile RomÃ¢nÄƒ È™i EnglezÄƒ."
+        "icon": "⚡",
+        "title": "Consolă SecOps Dashboard Actualizată",
+        "desc": "Capacitate integrată în HiAV.Dashboard de sincronizare automată a semnăturilor și agregare dinamică din sursele Cloud & Threat Intel."
       }
     ],
     "highlights_en": [
       {
-        "icon": "ðŸ›¡ï¸",
+        "icon": "🧬",
+        "title": "Polymorphic Detection via Imphash (MalwareBazaar)",
+        "desc": "Standardized Imphash calculation (MD5 Import Hash) across all PE binaries with generic threat family blocking (e.g. AgentTesla, AsyncRAT, RedLine) regardless of SHA-256 polymorphic mutations."
+      },
+      {
+        "icon": "📡",
+        "title": "Abuse.ch Threat Intelligence Extension",
+        "desc": "Enriched IoC ingestion and native support for imphash prefixes (imp:*) within the engine's lightning-fast in-memory signature store."
+      },
+      {
+        "icon": "⚡",
+        "title": "Updated SecOps Admin Dashboard",
+        "desc": "Streamlined signature aggregation and automatic cloud feed push capabilities integrated directly into HiAV.Dashboard."
+      }
+    ]
+  },
+  "2.5.32": {
+    "title_ro": "Noutăți în HiAV v2.5.32",
+    "title_en": "What's New in HiAV v2.5.32",
+    "date": "2026-11-23",
+    "highlights_ro": [
+      {
+        "icon": "🛡️",
+        "title": "Raportare Fals-Pozitiv din Carantină",
+        "desc": "Adăugat buton dedicat în tabul Carantină pentru transmiterea facilă de rapoarte anonimizate GDPR către echipa de securitate dacă un fișier este considerat legitim."
+      },
+      {
+        "icon": "🚨",
+        "title": "Comutator Izolare Rețea de Urgență (Lockdown)",
+        "desc": "Buton de panică integrat în tabul Setări (Basic & Avansat) pentru izolarea imediată a sistemului de la orice comunicare de rețea/internet în cazul suspectării unui atac."
+      },
+      {
+        "icon": "🔏",
+        "title": "Semnare de Cod Digitală Authenticode",
+        "desc": "Validare și pregătire completă a semnăturilor digitale cu timestamp RFC3161 pe toate executabilele și pachetul de instalare HiAV-Setup.exe."
+      },
+      {
+        "icon": "✨",
+        "title": "Ecran de Noutăți Bilingual (What's New)",
+        "desc": "Afișare automată a modificărilor și capabilităților noi la prima pornire a fiecărei versiuni noi, în limbile Română și Engleză."
+      }
+    ],
+    "highlights_en": [
+      {
+        "icon": "🛡️",
         "title": "Report False-Positive from Quarantine",
         "desc": "Added a dedicated button in the Quarantine tab for submitting GDPR-compliant redacted feedback when a legitimate file has been blocked."
       },
       {
-        "icon": "ðŸš¨",
+        "icon": "🚨",
         "title": "Emergency Network Lockdown Switch",
         "desc": "Instant system network cutoff button directly available in Settings (Basic & Advanced) to stop active data exfiltration or lateral movement during a breach."
       },
       {
-        "icon": "ðŸ”",
+        "icon": "🔏",
         "title": "Authenticode Digital Code Signing",
         "desc": "Digital signing pipeline with RFC3161 timestamping applied across all core binaries and the installer package (HiAV-Setup.exe)."
       },
       {
-        "icon": "âœ¨",
+        "icon": "✨",
         "title": "Bilingual What's New Notification Center",
         "desc": "Automatic presentation of highlights and key improvements upon the first launch of every new version, available in English and Romanian."
       }
     ]
   },
   "2.5.31": {
-    "title_ro": "NoutÄƒÈ›i Ã®n HiAV v2.5.31",
+    "title_ro": "Noutăți în HiAV v2.5.31",
     "title_en": "What's New in HiAV v2.5.31",
     "date": "2026-11-23",
     "highlights_ro": [
       {
-        "icon": "ðŸš¨",
-        "title": "Comutator Izolare ReÈ›ea de UrgenÈ›Äƒ (Lockdown)",
-        "desc": "Buton de panicÄƒ integrat Ã®n tabul SetÄƒri (Basic & Avansat) pentru izolarea imediatÄƒ a sistemului de la orice comunicare de reÈ›ea/internet Ã®n cazul suspectÄƒrii unui atac sau breÈ™e active."
+        "icon": "🚨",
+        "title": "Comutator Izolare Rețea de Urgență (Lockdown)",
+        "desc": "Buton de panică integrat în tabul Setări (Basic & Avansat) pentru izolarea imediată a sistemului de la orice comunicare de rețea/internet în cazul suspectării unui atac sau breșe active."
       },
       {
-        "icon": "ðŸ”",
-        "title": "Semnare de Cod DigitalÄƒ Authenticode",
-        "desc": "Validare È™i pregÄƒtire completÄƒ a semnÄƒturilor digitale cu timestamp RFC3161 pe toate executabilele È™i pachetul de instalare HiAV-Setup.exe."
+        "icon": "🔏",
+        "title": "Semnare de Cod Digitală Authenticode",
+        "desc": "Validare și pregătire completă a semnăturilor digitale cu timestamp RFC3161 pe toate executabilele și pachetul de instalare HiAV-Setup.exe."
       },
       {
-        "icon": "âœ¨",
-        "title": "Ecran de NoutÄƒÈ›i Bilingual (What's New)",
-        "desc": "AfiÈ™are automatÄƒ a modificÄƒrilor È™i capabilitÄƒÈ›ilor noi la prima pornire a fiecÄƒrei versiuni noi, Ã®n limbile RomÃ¢nÄƒ È™i EnglezÄƒ."
+        "icon": "✨",
+        "title": "Ecran de Noutăți Bilingual (What's New)",
+        "desc": "Afișare automată a modificărilor și capabilităților noi la prima pornire a fiecărei versiuni noi, în limbile Română și Engleză."
       },
       {
-        "icon": "â˜ï¸",
-        "title": "Feed Agregat de SemnÄƒturi Cloud & Mirror CDN",
-        "desc": "Ingestie transparentÄƒ prin streaming È™i decompresie GZip/Deflate a bazei comune de ameninÈ›Äƒri cu protecÈ›ie automatÄƒ multi-mirror (GitHub CDN + Firestore)."
+        "icon": "☁️",
+        "title": "Feed Agregat de Semnături Cloud & Mirror CDN",
+        "desc": "Ingestie transparentă prin streaming și decompresie GZip/Deflate a bazei comune de amenințări cu protecție automată multi-mirror (GitHub CDN + Firestore)."
       }
     ],
     "highlights_en": [
       {
-        "icon": "ðŸš¨",
+        "icon": "🚨",
         "title": "Emergency Network Lockdown Switch",
         "desc": "Instant system network cutoff button directly available in Settings (Basic & Advanced) to stop active data exfiltration or lateral movement during a breach."
       },
       {
-        "icon": "ðŸ”",
+        "icon": "🔏",
         "title": "Authenticode Digital Code Signing",
         "desc": "Digital signing pipeline with RFC3161 timestamping applied across all core binaries and the installer package (HiAV-Setup.exe)."
       },
       {
-        "icon": "âœ¨",
+        "icon": "✨",
         "title": "Bilingual What's New Notification Center",
         "desc": "Automatic presentation of highlights and key improvements upon the first launch of every new version, available in English and Romanian."
       },
       {
-        "icon": "â˜ï¸",
+        "icon": "☁️",
         "title": "Aggregated Cloud Signatures Feed & CDN Mirror",
         "desc": "Streaming delta ingestion with GZip/Deflate decompression for global threat intelligence with multi-mirror fallback (GitHub CDN + Firestore)."
       }
     ]
   },
   "2.5.30": {
-    "title_ro": "NoutÄƒÈ›i Ã®n HiAV v2.5.30",
+    "title_ro": "Noutăți în HiAV v2.5.30",
     "title_en": "What's New in HiAV v2.5.30",
     "date": "2026-11-23",
     "highlights_ro": [
       {
-        "icon": "âœ¨",
-        "title": "Ecran de NoutÄƒÈ›i Bilingual (What's New)",
-        "desc": "AfiÈ™are automatÄƒ a modificÄƒrilor È™i capabilitÄƒÈ›ilor noi la prima pornire a fiecÄƒrei versiuni noi, Ã®n limbile RomÃ¢nÄƒ È™i EnglezÄƒ."
+        "icon": "✨",
+        "title": "Ecran de Noutăți Bilingual (What's New)",
+        "desc": "Afișare automată a modificărilor și capabilităților noi la prima pornire a fiecărei versiuni noi, în limbile Română și Engleză."
       },
       {
-        "icon": "â˜ï¸",
-        "title": "Feed Agregat de SemnÄƒturi Cloud & Mirror CDN",
-        "desc": "Ingestie transparentÄƒ prin streaming È™i decompresie GZip/Deflate a bazei comune de ameninÈ›Äƒri cu protecÈ›ie automatÄƒ multi-mirror (GitHub CDN + Firestore)."
+        "icon": "☁️",
+        "title": "Feed Agregat de Semnături Cloud & Mirror CDN",
+        "desc": "Ingestie transparentă prin streaming și decompresie GZip/Deflate a bazei comune de amenințări cu protecție automată multi-mirror (GitHub CDN + Firestore)."
       },
       {
-        "icon": "ðŸ›¡ï¸",
-        "title": "ApÄƒrare Anti-Atacuri Coordonate AI (ASR-105)",
-        "desc": "DetecÈ›ie euristicÄƒ imediatÄƒ a tentativelor avansate de descÄƒrcare È™i injectare de cod prin PowerShell È™i LOLBins, cu terminarea instantanee a Ã®ntregului arbore de procese compromise."
+        "icon": "🛡️",
+        "title": "Apărare Anti-Atacuri Coordonate AI (ASR-105)",
+        "desc": "Detecție euristică imediată a tentativelor avansate de descărcare și injectare de cod prin PowerShell și LOLBins, cu terminarea instantanee a întregului arbore de procese compromise."
       },
       {
-        "icon": "âš™ï¸",
-        "title": "SetÄƒri Reorganizate: Mod Basic È™i Avansat",
-        "desc": "InterfaÈ›Äƒ simplificatÄƒ implicit pentru utilizatori obiÈ™nuiÈ›i (Basic), pÄƒstrÃ¢nd accesul granular È™i complet la toate scuturile EDR pentru experÈ›i (Avansat)."
+        "icon": "⚙️",
+        "title": "Setări Reorganizate: Mod Basic și Avansat",
+        "desc": "Interfață simplificată implicit pentru utilizatori obișnuiți (Basic), păstrând accesul granular și complet la toate scuturile EDR pentru experți (Avansat)."
       },
       {
-        "icon": "âš–ï¸",
-        "title": "Conformitate 100% GDPR, EULA È™i Privacy-by-Design",
-        "desc": "Acord integrat de licenÈ›iere la instalare, jurnal de securitate auditat È™i anonimizare strictÄƒ a cÄƒilor de profil utilizator Ã®n telemetrie."
+        "icon": "⚖️",
+        "title": "Conformitate 100% GDPR, EULA și Privacy-by-Design",
+        "desc": "Acord integrat de licențiere la instalare, jurnal de securitate auditat și anonimizare strictă a căilor de profil utilizator în telemetrie."
       }
     ],
     "highlights_en": [
       {
-        "icon": "âœ¨",
+        "icon": "✨",
         "title": "Bilingual What's New Notification Center",
         "desc": "Automatic presentation of highlights and key improvements upon the first launch of every new version, available in English and Romanian."
       },
       {
-        "icon": "â˜ï¸",
+        "icon": "☁️",
         "title": "Aggregated Cloud Signatures Feed & CDN Mirror",
         "desc": "Streaming delta ingestion with GZip/Deflate decompression for global threat intelligence with multi-mirror fallback (GitHub CDN + Firestore)."
       },
       {
-        "icon": "ðŸ›¡ï¸",
+        "icon": "🛡️",
         "title": "Anti-AI Coordinated Attack Defense (ASR-105)",
         "desc": "Immediate heuristic detection of advanced downloader pipelines via PowerShell and LOLBins, instantly terminating the entire compromised process tree."
       },
       {
-        "icon": "âš™ï¸",
+        "icon": "⚙️",
         "title": "Reorganized Settings: Basic & Advanced Views",
         "desc": "Streamlined default experience for daily usage (Basic), while preserving granular controls over all proactive EDR shields for power users (Advanced)."
       },
       {
-        "icon": "âš–ï¸",
+        "icon": "⚖️",
         "title": "100% GDPR, EULA & Privacy-by-Design Compliance",
         "desc": "Integrated end-user license agreement at installer stage, audited security logging, and strict PII redaction of user profile folders in telemetry."
       }
     ]
   },
   "2.5.29": {
-    "title_ro": "NoutÄƒÈ›i Ã®n HiAV v2.5.29",
+    "title_ro": "Noutăți în HiAV v2.5.29",
     "title_en": "What's New in HiAV v2.5.29",
     "date": "2026-11-23",
     "highlights_ro": [
       {
-        "icon": "ðŸ›¡ï¸",
-        "title": "ApÄƒrare Anti-Atacuri Coordonate AI (ASR-105)",
-        "desc": "DetecÈ›ie euristicÄƒ imediatÄƒ a tentativelor avansate de descÄƒrcare È™i injectare de cod prin PowerShell È™i LOLBins, cu terminarea instantanee a Ã®ntregului arbore de procese compromise."
+        "icon": "🛡️",
+        "title": "Apărare Anti-Atacuri Coordonate AI (ASR-105)",
+        "desc": "Detecție euristică imediată a tentativelor avansate de descărcare și injectare de cod prin PowerShell și LOLBins, cu terminarea instantanee a întregului arbore de procese compromise."
       },
       {
-        "icon": "â˜ï¸",
-        "title": "Feed Agregat de SemnÄƒturi Cloud",
-        "desc": "Sincronizare bilateralÄƒ ultra-rapidÄƒ È™i ingestie compactÄƒ cu decompresie transparentÄƒ (GZip/Deflate) a bazei comune de ameninÈ›Äƒri globale."
+        "icon": "☁️",
+        "title": "Feed Agregat de Semnături Cloud",
+        "desc": "Sincronizare bilaterală ultra-rapidă și ingestie compactă cu decompresie transparentă (GZip/Deflate) a bazei comune de amenințări globale."
       },
       {
-        "icon": "âš™ï¸",
-        "title": "SetÄƒri Reorganizate: Mod Basic È™i Avansat",
-        "desc": "InterfaÈ›Äƒ simplificatÄƒ implicit pentru utilizatori obiÈ™nuiÈ›i (Basic), pÄƒstrÃ¢nd accesul granular È™i complet la toate scuturile EDR pentru experÈ›i (Avansat)."
+        "icon": "⚙️",
+        "title": "Setări Reorganizate: Mod Basic și Avansat",
+        "desc": "Interfață simplificată implicit pentru utilizatori obișnuiți (Basic), păstrând accesul granular și complet la toate scuturile EDR pentru experți (Avansat)."
       },
       {
-        "icon": "âš–ï¸",
-        "title": "Conformitate 100% GDPR, EULA È™i Privacy-by-Design",
-        "desc": "Acord integrat de licenÈ›iere la instalare, jurnal de securitate auditat È™i anonimizare strictÄƒ a cÄƒilor de profil utilizator Ã®n telemetrie."
+        "icon": "⚖️",
+        "title": "Conformitate 100% GDPR, EULA și Privacy-by-Design",
+        "desc": "Acord integrat de licențiere la instalare, jurnal de securitate auditat și anonimizare strictă a căilor de profil utilizator în telemetrie."
       }
     ],
     "highlights_en": [
       {
-        "icon": "ðŸ›¡ï¸",
+        "icon": "🛡️",
         "title": "Anti-AI Coordinated Attack Defense (ASR-105)",
         "desc": "Immediate heuristic detection of advanced downloader pipelines via PowerShell and LOLBins, instantly terminating the entire compromised process tree."
       },
       {
-        "icon": "â˜ï¸",
+        "icon": "☁️",
         "title": "Aggregated Cloud Signatures Feed",
         "desc": "Ultra-fast bilateral synchronization and compact stream ingestion with transparent GZip/Deflate decompression for global threat intelligence."
       },
       {
-        "icon": "âš™ï¸",
+        "icon": "⚙️",
         "title": "Reorganized Settings: Basic & Advanced Views",
         "desc": "Streamlined default experience for daily usage (Basic), while preserving granular controls over all proactive EDR shields for power users (Advanced)."
       },
       {
-        "icon": "âš–ï¸",
+        "icon": "⚖️",
         "title": "100% GDPR, EULA & Privacy-by-Design Compliance",
         "desc": "Integrated end-user license agreement at installer stage, audited security logging, and strict PII redaction of user profile folders in telemetry."
       }
