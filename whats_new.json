@@ -1,4 +1,53 @@
 {
+  "2.5.32": {
+    "title_ro": "NoutÄƒÈ›i Ã®n HiAV v2.5.32",
+    "title_en": "What's New in HiAV v2.5.32",
+    "date": "2026-11-23",
+    "highlights_ro": [
+      {
+        "icon": "ðŸ›¡ï¸",
+        "title": "Raportare Fals-Pozitiv din CarantinÄƒ",
+        "desc": "AdÄƒugat buton dedicat Ã®n tabul CarantinÄƒ pentru transmiterea facilÄƒ de rapoarte anonimizate GDPR cÄƒtre echipa de securitate dacÄƒ un fiÈ™ier este considerat legitim."
+      },
+      {
+        "icon": "ðŸš¨",
+        "title": "Comutator Izolare ReÈ›ea de UrgenÈ›Äƒ (Lockdown)",
+        "desc": "Buton de panicÄƒ integrat Ã®n tabul SetÄƒri (Basic & Avansat) pentru izolarea imediatÄƒ a sistemului de la orice comunicare de reÈ›ea/internet Ã®n cazul suspectÄƒrii unui atac."
+      },
+      {
+        "icon": "ðŸ”",
+        "title": "Semnare de Cod DigitalÄƒ Authenticode",
+        "desc": "Validare È™i pregÄƒtire completÄƒ a semnÄƒturilor digitale cu timestamp RFC3161 pe toate executabilele È™i pachetul de instalare HiAV-Setup.exe."
+      },
+      {
+        "icon": "âœ¨",
+        "title": "Ecran de NoutÄƒÈ›i Bilingual (What's New)",
+        "desc": "AfiÈ™are automatÄƒ a modificÄƒrilor È™i capabilitÄƒÈ›ilor noi la prima pornire a fiecÄƒrei versiuni noi, Ã®n limbile RomÃ¢nÄƒ È™i EnglezÄƒ."
+      }
+    ],
+    "highlights_en": [
+      {
+        "icon": "ðŸ›¡ï¸",
+        "title": "Report False-Positive from Quarantine",
+        "desc": "Added a dedicated button in the Quarantine tab for submitting GDPR-compliant redacted feedback when a legitimate file has been blocked."
+      },
+      {
+        "icon": "ðŸš¨",
+        "title": "Emergency Network Lockdown Switch",
+        "desc": "Instant system network cutoff button directly available in Settings (Basic & Advanced) to stop active data exfiltration or lateral movement during a breach."
+      },
+      {
+        "icon": "ðŸ”",
+        "title": "Authenticode Digital Code Signing",
+        "desc": "Digital signing pipeline with RFC3161 timestamping applied across all core binaries and the installer package (HiAV-Setup.exe)."
+      },
+      {
+        "icon": "âœ¨",
+        "title": "Bilingual What's New Notification Center",
+        "desc": "Automatic presentation of highlights and key improvements upon the first launch of every new version, available in English and Romanian."
+      }
+    ]
+  },
   "2.5.31": {
     "title_ro": "NoutÄƒÈ›i Ã®n HiAV v2.5.31",
     "title_en": "What's New in HiAV v2.5.31",
