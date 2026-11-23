@@ -1,4 +1,33 @@
 {
+  "2.5.35": {
+    "title_ro": "Noutăți în HiAV v2.5.35",
+    "title_en": "What's New in HiAV v2.5.35",
+    "date": "2026-11-23",
+    "highlights_ro": [
+      {
+        "icon": "🧬",
+        "title": "Fuzzy Hashing TLSH (Trend Micro Locality Sensitive Hash)",
+        "desc": "Integrare completă a motorului TLSH pentru detectarea similarităților structurale. Prinde variantele mutante polimorfice cu distanță de variație redusă chiar dacă hash-ul binar este complet schimbat."
+      },
+      {
+        "icon": "🏷️",
+        "title": "Catalogare Familii de Amenințări (Threat Families)",
+        "desc": "Alertele de securitate indică acum explicit familia exactă de malware raportată (ex: LockBit, RedLineStealer, AgentTesla, AsyncRAT) și adaptează răspunsul defensiv EDR."
+      }
+    ],
+    "highlights_en": [
+      {
+        "icon": "🧬",
+        "title": "TLSH Fuzzy Hashing (Trend Micro Locality Sensitive Hash)",
+        "desc": "Full native TLSH engine integration for structural similarity detection. Catches polymorphic malware mutations with low distance variance even when binary hashes are completely distinct."
+      },
+      {
+        "icon": "🏷️",
+        "title": "Threat Family Intelligence Catalog",
+        "desc": "Security alerts now explicitly display the exact malware family name (e.g. LockBit, RedLineStealer, AgentTesla, AsyncRAT) with tailored EDR defensive containment actions."
+      }
+    ]
+  },
   "2.5.34": {
     "title_ro": "Noutăți în HiAV v2.5.34",
     "title_en": "What's New in HiAV v2.5.34",
