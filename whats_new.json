@@ -1,4 +1,33 @@
 {
+  "2.5.34": {
+    "title_ro": "Noutăți în HiAV v2.5.34",
+    "title_en": "What's New in HiAV v2.5.34",
+    "date": "2026-11-23",
+    "highlights_ro": [
+      {
+        "icon": "🚀",
+        "title": "Bază Masivă de Peste 1.33M Semnături",
+        "desc": "Integrarea completă a dump-ului istoric MalwareBazaar: 1.334.334 semnături unice (SHA-256 și Imphash) active în motor."
+      },
+      {
+        "icon": "📊",
+        "title": "Sincronizare Vizuală Etapă Scanare",
+        "desc": "Etapa 2 a conductei de scanare afișează dinamic numărul real sincronizat de semnături (ex: 1.33M Semnături) atât în repaus cât și în timpul analizei."
+      }
+    ],
+    "highlights_en": [
+      {
+        "icon": "🚀",
+        "title": "Massive 1.33M+ Signatures Database",
+        "desc": "Complete ingestion of the full MalwareBazaar historical dump: 1,334,334 unique active signatures (SHA-256 and Imphash) loaded in the engine."
+      },
+      {
+        "icon": "📊",
+        "title": "Dynamic Visual Scan Stage Sync",
+        "desc": "Stage 2 of the scan pipeline now dynamically reflects the real synced signature volume (e.g. 1.33M Signatures) both in idle and active scanning states."
+      }
+    ]
+  },
   "2.5.33": {
     "title_ro": "Noutăți în HiAV v2.5.33",
     "title_en": "What's New in HiAV v2.5.33",
