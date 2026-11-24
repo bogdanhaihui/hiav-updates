@@ -1,12 +1,12 @@
 ﻿{
     "releaseDate":  "2026-11-24",
     "changelog":  [
-                      "DACL Process Hardening: blocare OpenProcess/TerminateProcess pentru protejarea serviciului HiAV",
-                      "Minifilter File-Shield: interzicere la nivel de kernel a modificarii sau stergerii fisierelor HiAV",
-                      "SCM Instant Recovery: configurat restart automat la 0 ms in caz de oprire neasteptata a serviciului",
-                      "Auto-protectie integrala impotriva atacurilor EDR-Killer si scenariilor de bypass"
+                      "In-Memory Threat Defense: auto-remediere & restituire activa a octetilor AMSI/ETW (AmsiScanBuffer, EtwEventWrite)",
+                      "Unbacked Reflective PE Scanner: detectie in memorie privata unbacked a modulelor PE injectate (Process Hollowing / Cobalt Strike)",
+                      "Fleet Containment: Emergency Lockdown prin Windows Filtering Platform (izolare host instantanee la nivel de kernel)",
+                      "SecOps Dashboard: actiuni directe de Host Isolation, One-Click Rollback si Scanare Profunda de Memorie"
                   ],
     "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
-    "version":  "2.5.50",
-    "downloadUrl":  "https://github.com/bogdanhaihui/hiav-updates/releases/download/v2.5.50/HiAV-v2.5.50-win-x64.zip"
+    "version":  "2.5.51",
+    "downloadUrl":  "https://github.com/bogdanhaihui/hiav-updates/releases/download/v2.5.51/HiAV-v2.5.51-win-x64.zip"
 }
