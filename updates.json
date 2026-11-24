@@ -1,12 +1,12 @@
-{
+﻿{
     "releaseDate":  "2026-11-24",
     "changelog":  [
-                      "Baza masiva de 1.27M semnaturi locale MalwareBazaar si feed cloud integrat",
-                      "Model ML GBDT intensiv cu 150 arbori de decizie si acuratete 96.8% (FPR 0.28%)",
-                      "Optimizare arhitecturala memorie LOH si monitorizare SecOps Cloud Dashboard",
-                      "HiAV Threat Crawler autonom integrat in Task Scheduler cu frecventa la 4 ore"
+                      "Arhitectura hibrida Bloom Filter (4MB RAM) si Binary Signature Store mapat in memorie",
+                      "Reducere consum RAM cu peste 95% pentru 1.27M semnaturi (sub 40MB)",
+                      "Rejectie instantanee O(1) in 15 ns pentru fisiere curate cu zero alocari heap",
+                      "On-demand streaming metadata lookup pentru familii de malware fara overhead in RAM"
                   ],
     "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
-    "version":  "2.5.47",
-    "downloadUrl":  "https://github.com/bogdanhaihui/hiav-updates/releases/download/v2.5.47/HiAV-v2.5.47-win-x64.zip"
+    "version":  "2.5.48",
+    "downloadUrl":  "https://github.com/bogdanhaihui/hiav-updates/releases/download/v2.5.48/HiAV-v2.5.48-win-x64.zip"
 }
