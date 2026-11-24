@@ -1,12 +1,12 @@
 ﻿{
     "releaseDate":  "2026-11-24",
     "changelog":  [
-                      "Implementat KSP Store cu rejectie Bloom O(1) in 15 ns pentru binare sigure de sistem",
-                      "Recunoastere nativa a furnizorilor de prim rang (Tier-1: Microsoft, Google, Mozilla, Valve, Discord, Spotify)",
-                      "Porti contextuale de risc (Context-Aware Gating / MotW) pentru eliminarea fals-pozitivelor pe utilitare legitime",
-                      "Reducere garantata sub 0.03% a ratei de alarme false pe aplicatii legitime"
+                      "DACL Process Hardening: blocare OpenProcess/TerminateProcess pentru protejarea serviciului HiAV",
+                      "Minifilter File-Shield: interzicere la nivel de kernel a modificarii sau stergerii fisierelor HiAV",
+                      "SCM Instant Recovery: configurat restart automat la 0 ms in caz de oprire neasteptata a serviciului",
+                      "Auto-protectie integrala impotriva atacurilor EDR-Killer si scenariilor de bypass"
                   ],
     "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
-    "version":  "2.5.49",
-    "downloadUrl":  "https://github.com/bogdanhaihui/hiav-updates/releases/download/v2.5.49/HiAV-v2.5.49-win-x64.zip"
+    "version":  "2.5.50",
+    "downloadUrl":  "https://github.com/bogdanhaihui/hiav-updates/releases/download/v2.5.50/HiAV-v2.5.50-win-x64.zip"
 }
