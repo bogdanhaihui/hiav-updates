@@ -1,12 +1,12 @@
 ﻿{
     "releaseDate":  "2026-11-24",
     "changelog":  [
-                      "Arhitectura hibrida Bloom Filter (4MB RAM) si Binary Signature Store mapat in memorie",
-                      "Reducere consum RAM cu peste 95% pentru 1.27M semnaturi (sub 40MB)",
-                      "Rejectie instantanee O(1) in 15 ns pentru fisiere curate cu zero alocari heap",
-                      "On-demand streaming metadata lookup pentru familii de malware fara overhead in RAM"
+                      "Implementat KSP Store cu rejectie Bloom O(1) in 15 ns pentru binare sigure de sistem",
+                      "Recunoastere nativa a furnizorilor de prim rang (Tier-1: Microsoft, Google, Mozilla, Valve, Discord, Spotify)",
+                      "Porti contextuale de risc (Context-Aware Gating / MotW) pentru eliminarea fals-pozitivelor pe utilitare legitime",
+                      "Reducere garantata sub 0.03% a ratei de alarme false pe aplicatii legitime"
                   ],
     "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
-    "version":  "2.5.48",
-    "downloadUrl":  "https://github.com/bogdanhaihui/hiav-updates/releases/download/v2.5.48/HiAV-v2.5.48-win-x64.zip"
+    "version":  "2.5.49",
+    "downloadUrl":  "https://github.com/bogdanhaihui/hiav-updates/releases/download/v2.5.49/HiAV-v2.5.49-win-x64.zip"
 }
