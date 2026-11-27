@@ -1,0 +1,443 @@
+{
+  "generatedUtc": "2026-11-27T09:53:12.2060192Z",
+  "method": "intersection of staged SHA-256 feed and positive daily MalwareBazaar VM-extraction CSV rows, plus EICAR canary",
+  "stagedCount": 82276,
+  "sourceFiles": 86,
+  "confirmedMalwareCount": 3181,
+  "outputCount": 3182,
+  "outputSha256": "748f01ded612be5c634ec0e4fd4f2e5319877e28c7e2a2430f4980810a5934f2",
+  "inputs": [
+    {
+      "path": "mb_2026-10-05.csv",
+      "sha256": "29f2ef09fd3dd1dc79cf3bb5ce6696e3014365de26404fcdff3d9487a1bfb5ff",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_2026-10-12.csv",
+      "sha256": "26463045f01290c916cfae6dcc0fa76dd20aaae23dfe031bbef3ff8a06ef00e1",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_2026-10-19.csv",
+      "sha256": "b45ee62ed20cae9456889d88481e13ff9fdf8b19edcda64f3437559ff5d8f1ce",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_2026-10-26.csv",
+      "sha256": "3d8625cfaf38e17300f37cd8ca72371b688745601a8be355f52c74bb99e0cafd",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_2026-11-10.csv",
+      "sha256": "f7560e243c5f1a7f77d71ee9d5a554561a98ffa2ebe3f85b8442b68c4295e2e9",
+      "matchingRows": 128
+    },
+    {
+      "path": "mb_2026-11-11.csv",
+      "sha256": "7677256b9dd8b39abd86d1f158b8e98db86be19d36ef50256200136468236e52",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_2026-11-12.csv",
+      "sha256": "b18ece0e29163ebf2d61c47972c06f7fac432b0d6b9c239d166b451438d1343e",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_2026-11-13.csv",
+      "sha256": "86aa791ed5aafc15e101939256c695baaabd273a633338652a2c597e0d9632b5",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_2026-11-14.csv",
+      "sha256": "cbda4afe4be1a8a25e7851877ebc1be0910039f7c61fea77a7bfc8b5a1410c90",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_2026-11-15.csv",
+      "sha256": "0bf8140426f12bae025d9a00441d7e7b6e011df3fa9f7b7cf874ed81f522dacc",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-11.csv",
+      "sha256": "a50b6191085e8f8cdfa48903ed0a0f9c0a0cdc2419be766121bd5e25c78f3549",
+      "matchingRows": 71
+    },
+    {
+      "path": "mb_m_2026-10-12.csv",
+      "sha256": "26463045f01290c916cfae6dcc0fa76dd20aaae23dfe031bbef3ff8a06ef00e1",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-13.csv",
+      "sha256": "942f0e372b6e0800e0b557ce46a1302ec8dcd82088ddea3a0b1bc1f6900eb902",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-14.csv",
+      "sha256": "61894238fbe586b62c8e7e983454e13c32eb517866464f028065287d6f5d16df",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-15.csv",
+      "sha256": "7b1e58a314eb4dc4e8d3531283c1947b9caa044184235a5f0b263d19e3d20d26",
+      "matchingRows": 101
+    },
+    {
+      "path": "mb_m_2026-10-16.csv",
+      "sha256": "e75cf2a7211874657c0db3084c69d466db7f67d4a1bb2bcaca9bfe4684c56f35",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-17.csv",
+      "sha256": "edd9863ecb2b7f6e100c98d163961865ddefdb834583b9eea240c8ccb6e2c8fe",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-18.csv",
+      "sha256": "06e82174a961f9fc897b274bafe8497d095c820a495c8a6d1a89dca65d48ed67",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-19.csv",
+      "sha256": "b45ee62ed20cae9456889d88481e13ff9fdf8b19edcda64f3437559ff5d8f1ce",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-20.csv",
+      "sha256": "9789e63693a875110d02d97e0d6c58e6c9593728b1ce6cef4f817d967448372f",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-21.csv",
+      "sha256": "311138a0c40dcc402bb6387112e3f68b134d942d26629bb6eef275cc33c12304",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-22.csv",
+      "sha256": "465a7de03708b629b7f5f96317872804e340805b7e58c6f0a7d5ac6cb0150e87",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-23.csv",
+      "sha256": "dcfb4fdfe04d21b1423b3f289de24c97e4c550daf31765d1d54108a4a1c1d34b",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-24.csv",
+      "sha256": "706e6b3b32810ae491e355daf4d048e2a50ea88785f63f0440ea1c87b0f17793",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-25.csv",
+      "sha256": "b56101ee49f4b157026abf9934c02d84e762fd8f548ca9f193ab70bb23e5e1c6",
+      "matchingRows": 118
+    },
+    {
+      "path": "mb_m_2026-10-26.csv",
+      "sha256": "3d8625cfaf38e17300f37cd8ca72371b688745601a8be355f52c74bb99e0cafd",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-27.csv",
+      "sha256": "6fe6bae7c3a334a21422b9e0fc78a1e95e357a10f3149fdc8c086a7f8bf70551",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-28.csv",
+      "sha256": "1d7bab2563365af7dba4298bcbf65b43b57fd6593bf8a6a75656836ff411395b",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-29.csv",
+      "sha256": "a548d58c02263f3fac2639f70cafce5c3402f6c1e3e877257f2ef5955bcb0481",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-30.csv",
+      "sha256": "6b2d26a7a049276acdc4e604468b068570396b01304fd6c978f161365f160552",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-31.csv",
+      "sha256": "b07814dd3ad66089decd99ee5c60ba223e29ebfde30abc8ccfefc89b7342f6f8",
+      "matchingRows": 0
+    },
+    {
+      "path": "v3_mb_2025-10-02.csv",
+      "sha256": "271d20acaa0df4c6df2acc846df1e0976e9cfffa83eaf097da0d76af1e513146",
+      "matchingRows": 93
+    },
+    {
+      "path": "v3_mb_2025-10-03.csv",
+      "sha256": "2dd291f155d54bb3cb621aacb4a4b7a7640a273fef155c42e690b1f9731058b0",
+      "matchingRows": 91
+    },
+    {
+      "path": "v3_mb_2025-10-05.csv",
+      "sha256": "458549b5a571e30f4514c7f6abe23074a5b51cca2c47e880fe631def682698fa",
+      "matchingRows": 111
+    },
+    {
+      "path": "v3_mb_2025-10-12.csv",
+      "sha256": "bbf9438d9cf7f5e81b816555f72c152572d7a25373133b72335a934d2191bf42",
+      "matchingRows": 45
+    },
+    {
+      "path": "v3_mb_2025-10-19.csv",
+      "sha256": "29f86d76350f85b79b7a59da2f241eb6beea3ca81550595a74d2b19f2bde0219",
+      "matchingRows": 62
+    },
+    {
+      "path": "v3_mb_2025-11-01.csv",
+      "sha256": "d971c8d53c3a5220703190cdfbf52af9e9939df94d218d69590ff5c00a0ac639",
+      "matchingRows": 42
+    },
+    {
+      "path": "v3_mb_2025-11-02.csv",
+      "sha256": "6a99c29257525b51813b6013d8ce37f59ed530623fb7bc59f93956e749841cc5",
+      "matchingRows": 48
+    },
+    {
+      "path": "v3_mb_2025-11-03.csv",
+      "sha256": "90ea1baa08ec2e280668263e80b80608dde2e99bc5d74a8d009dacec46811bce",
+      "matchingRows": 132
+    },
+    {
+      "path": "v3_mb_2025-11-09.csv",
+      "sha256": "b4601e315abb20fd8bfd9416cc42ed3ceb9b2717e0fec629489c790c806da08f",
+      "matchingRows": 29
+    },
+    {
+      "path": "v3_mb_2025-12-01.csv",
+      "sha256": "4dc79992f48a1367948da2c62fa6b7c32ff98415121700ced59410a470502696",
+      "matchingRows": 107
+    },
+    {
+      "path": "v3_mb_2025-12-02.csv",
+      "sha256": "af1c8ca821b0ae72a678900f5d76345535e8b85741354b227fca2f77788f819b",
+      "matchingRows": 103
+    },
+    {
+      "path": "v3_mb_2025-12-06.csv",
+      "sha256": "e9279eb2d526fdad3ae59f4e58014ad0d86863e0c4ff3df3d32840fef6f9c756",
+      "matchingRows": 144
+    },
+    {
+      "path": "v3_mb_2025-12-07.csv",
+      "sha256": "eaa9bcd7d74ec151d3bdfb2438ea44910fd8cf741eebc041517ba77e35878234",
+      "matchingRows": 94
+    },
+    {
+      "path": "v3_mb_2025-12-14.csv",
+      "sha256": "6527dd00639d3eb91c3bd3576acb003e1fc883a9e23d163f039690d336adeb8a",
+      "matchingRows": 70
+    },
+    {
+      "path": "v3_mb_2026-01-06.csv",
+      "sha256": "252600d899a43d7af4236bdc4d56ed4aebd651067ec785d81527fbf826f6d3ef",
+      "matchingRows": 201
+    },
+    {
+      "path": "v3_mb_2026-01-10.csv",
+      "sha256": "ce26696cb1a2e7c9b8ef3dcd3e0a94f3ad8c18f184e1fd46c0ecde2c809d5506",
+      "matchingRows": 60
+    },
+    {
+      "path": "v3_mb_2026-01-11.csv",
+      "sha256": "9059836f5c2a3cb48d076031fbe783a87132bacb302632131a2224ccd79a9d5d",
+      "matchingRows": 63
+    },
+    {
+      "path": "v3_mb_2026-01-15.csv",
+      "sha256": "514b5aa0eacc29672f616794058d1c1ce047f7227bd7e15de3788846ef613373",
+      "matchingRows": 97
+    },
+    {
+      "path": "v3_mb_2026-10-09.csv",
+      "sha256": "ce3d88666b792d707ff8a63b083ca52a094b5cd0a9272198ab0faae45fa4f706",
+      "matchingRows": 66
+    },
+    {
+      "path": "v3_mb_2026-10-11.csv",
+      "sha256": "fea4bdde8a92ce7b1b8a17521180a101c01e10140af0f4e3f37dffe36d96e413",
+      "matchingRows": 71
+    },
+    {
+      "path": "v3_mb_2026-10-15.csv",
+      "sha256": "0919e95c4e99a39435b75b41deefa71d3524dd4826a5a84ce5a50a191df4123a",
+      "matchingRows": 101
+    },
+    {
+      "path": "v3_mb_2026-10-25.csv",
+      "sha256": "0a87eee06b0afc72a14a3d3941b7075054d6b82aba17db13c2913f0bf3d96c5d",
+      "matchingRows": 118
+    },
+    {
+      "path": "v3_mb_2026-11-08.csv",
+      "sha256": "1da773fed29e2b4944ba8387df7cf8f4f9907cc0a81c83d2bbc5a2a99069e7ef",
+      "matchingRows": 105
+    },
+    {
+      "path": "v3_mb_2026-11-09.csv",
+      "sha256": "f603bb8056fbb2c1686f1dafaf6aa232845658ac2acd4e70d9005948fb56ddde",
+      "matchingRows": 774
+    },
+    {
+      "path": "v3_mb_2026-11-10.csv",
+      "sha256": "a4cfce400cb1243a131be1f0536737da5585a7089c59a8ce6ae61d93ce3d919f",
+      "matchingRows": 353
+    },
+    {
+      "path": "mb2026_11.csv",
+      "sha256": "482b2431e40bd706ddf0a5e84796cc62a19dcbfd1339a20d1e61d6c630b5cb27",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-11-01.csv",
+      "sha256": "85143b5ebe55ecf4edd3d44739170bc559887a4c3391f20b98e4faf3b515100d",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-11-02.csv",
+      "sha256": "7c1db7dc634bbfc29f0d08ddec1e4d57f69dfc27d0c2e5330307a8d6f37f3756",
+      "matchingRows": 1
+    },
+    {
+      "path": "mb_m_2026-11-03.csv",
+      "sha256": "91c0457336d1da7f266cada0600b9c3bce9ec60340d7e59863e57b15c863b2bc",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-11-04.csv",
+      "sha256": "8b7226afff889d10bafb0163ee7508314f3948fe79ab43cdcf34b77cc3f07cad",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-11-05.csv",
+      "sha256": "cfb46344b27eb34f2401dc6b08300ad6bf6e450374125a0f90598d0f12e3ba8c",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-11-06.csv",
+      "sha256": "da2759e89df3f314717293871ec6769605aab11ffbab140a6ee6ece2499b4dfc",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-11-07.csv",
+      "sha256": "458c6607d11a893823bc2a19106ed0b8e36473e3f9c5505dcc9f25d4f3ad6d1a",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-11-08.csv",
+      "sha256": "8d7171ad669dcfdb1e06aa76055c64262c5084480e2733f83ae3d44bf7435677",
+      "matchingRows": 105
+    },
+    {
+      "path": "mb_m_2026-10-11.csv",
+      "sha256": "a50b6191085e8f8cdfa48903ed0a0f9c0a0cdc2419be766121bd5e25c78f3549",
+      "matchingRows": 71
+    },
+    {
+      "path": "mb_m_2026-10-12.csv",
+      "sha256": "26463045f01290c916cfae6dcc0fa76dd20aaae23dfe031bbef3ff8a06ef00e1",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-13.csv",
+      "sha256": "942f0e372b6e0800e0b557ce46a1302ec8dcd82088ddea3a0b1bc1f6900eb902",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-14.csv",
+      "sha256": "61894238fbe586b62c8e7e983454e13c32eb517866464f028065287d6f5d16df",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-15.csv",
+      "sha256": "7b1e58a314eb4dc4e8d3531283c1947b9caa044184235a5f0b263d19e3d20d26",
+      "matchingRows": 101
+    },
+    {
+      "path": "mb_m_2026-10-16.csv",
+      "sha256": "e75cf2a7211874657c0db3084c69d466db7f67d4a1bb2bcaca9bfe4684c56f35",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-17.csv",
+      "sha256": "edd9863ecb2b7f6e100c98d163961865ddefdb834583b9eea240c8ccb6e2c8fe",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-18.csv",
+      "sha256": "06e82174a961f9fc897b274bafe8497d095c820a495c8a6d1a89dca65d48ed67",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-19.csv",
+      "sha256": "b45ee62ed20cae9456889d88481e13ff9fdf8b19edcda64f3437559ff5d8f1ce",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-20.csv",
+      "sha256": "9789e63693a875110d02d97e0d6c58e6c9593728b1ce6cef4f817d967448372f",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-21.csv",
+      "sha256": "311138a0c40dcc402bb6387112e3f68b134d942d26629bb6eef275cc33c12304",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-22.csv",
+      "sha256": "465a7de03708b629b7f5f96317872804e340805b7e58c6f0a7d5ac6cb0150e87",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-23.csv",
+      "sha256": "dcfb4fdfe04d21b1423b3f289de24c97e4c550daf31765d1d54108a4a1c1d34b",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-24.csv",
+      "sha256": "706e6b3b32810ae491e355daf4d048e2a50ea88785f63f0440ea1c87b0f17793",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-25.csv",
+      "sha256": "b56101ee49f4b157026abf9934c02d84e762fd8f548ca9f193ab70bb23e5e1c6",
+      "matchingRows": 118
+    },
+    {
+      "path": "mb_m_2026-10-26.csv",
+      "sha256": "3d8625cfaf38e17300f37cd8ca72371b688745601a8be355f52c74bb99e0cafd",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-27.csv",
+      "sha256": "6fe6bae7c3a334a21422b9e0fc78a1e95e357a10f3149fdc8c086a7f8bf70551",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-28.csv",
+      "sha256": "1d7bab2563365af7dba4298bcbf65b43b57fd6593bf8a6a75656836ff411395b",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-29.csv",
+      "sha256": "a548d58c02263f3fac2639f70cafce5c3402f6c1e3e877257f2ef5955bcb0481",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-30.csv",
+      "sha256": "6b2d26a7a049276acdc4e604468b068570396b01304fd6c978f161365f160552",
+      "matchingRows": 0
+    },
+    {
+      "path": "mb_m_2026-10-31.csv",
+      "sha256": "b07814dd3ad66089decd99ee5c60ba223e29ebfde30abc8ccfefc89b7342f6f8",
+      "matchingRows": 0
+    }
+  ],
+  "malwareBazaarSpotChecks": "11/11 confirmed via get_info API on 2026-11-27",
+  "signedWindowsCorpus": "236 checked, 0 matches"
+}
