@@ -1,0 +1,13 @@
+{
+  "version": "2.5.95",
+  "channel": "development-preview",
+  "manualInstallRequired": true,
+  "automaticUpdateSupported": false,
+  "url": "https://github.com/bogdanhaihui/hiav-updates/releases/download/v2.5.95/HiAV-v2.5.95-win-x64.zip",
+  "sha256": "6971553c8cb7198423edc87971ca62dab787915b892196e873fb4fe33eb9b4f1",
+  "size": 238578556,
+  "releaseDateUtc": "2026-11-27T21:42:00.254Z",
+  "signing": "local-test",
+  "signerThumbprint": "261D1D46AB7C316A10D565EE037E36B2469BAE58",
+  "changelog": "Development preview. Manual installation only. Persistent kernel intent, execution gate and backup fixes. See release notes for validation and limitations."
+}
